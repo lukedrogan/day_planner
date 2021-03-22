@@ -1,0 +1,77 @@
+body {
+    font-size: 18
+    px;
+    line-height: 1;
+  }
+  
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: skyblue;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  .time-block{
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    padding-top: 5px;
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 2px solid black;
+    background-color: steelblue;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+
+  }
+  
+  .past {
+    background-color: skyblue;
+    color: black;
+  }
+  
+  .present {
+    background-color: orangered;
+    color: white;
+  }
+  
+  .future {
+    background-color: green;
+    color:black;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-size: 0.75rem
+  }
+  
+  .saveBtn i:hover {
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+  }
+  
